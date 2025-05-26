@@ -6,9 +6,9 @@ public class ChessBoardPattern {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if ((i + j) % 2 == 0) {
-                    System.out.print("# ");
+                    System.out.print("B ");
                 } else {
-                    System.out.print("  ");
+                    System.out.print("W  ");
                 }
             }
             System.out.println(); 
