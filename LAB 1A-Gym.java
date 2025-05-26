@@ -39,7 +39,7 @@ public class Gym {
         int age = scanner.nextInt();
 
         System.out.print("Enter membership status (Active/Inactive): ");
-        scanner.nextLine(); // Consume leftover newline
+        scanner.nextLine(); 
         String membershipStatus = scanner.nextLine();
 
         System.out.print("Enter membership duration (in months): ");
