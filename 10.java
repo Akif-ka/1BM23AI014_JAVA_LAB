@@ -13,9 +13,7 @@ import apack.A;
 
 public class B extends A {
     public void display() {
-        // System.out.println("Default: " + defaultVar);   
         System.out.println("Protected: " + protectedVar); 
-        // System.out.println("Private: " + privateVar);   
         System.out.println("Public: " + publicVar);       
     }
 }
@@ -27,9 +25,6 @@ import apack.A;
 public class C {
     public void display() {
         A obj = new A();
-        // System.out.println("Default: " + obj.defaultVar);   
-        // System.out.println("Protected: " + obj.protectedVar); 
-        // System.out.println("Private: " + obj.privateVar);  
         System.out.println("Public: " + obj.publicVar);      
     }
 }
